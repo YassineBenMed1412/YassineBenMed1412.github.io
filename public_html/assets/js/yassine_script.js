@@ -52,6 +52,6 @@ contactForm.addEventListener('submit', (event) => {
 
 const downloadCVButton = document.querySelector('#butto');
 downloadCVButton.addEventListener('click', () => {
-    const cvUrl = 'https://drive.google.com/file/d/15P6_0qScus6UUVp59snqSb34QgtjvXDu/view?usp=drive_link'; // Replace with your hosted URL
+    const cvUrl = 'https://drive.google.com/file/d/1dYxbTyqPCFt2TMDaeM1ZyxeVA_IUvzSZ/view?usp=drive_link'; // Replace with your hosted URL
     window.open(cvUrl, '_blank'); // Opens the CV file in a new tab/window
 });
